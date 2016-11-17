@@ -43,9 +43,9 @@ def room1():
 def room2():
     print("what do you do")
     sleep(2)
-    print("A. look for key(wast of time)")
+    print("A. look for key(waste of time)")
     sleep(2)
-    print("B. stare at door for eternity(even bigger wast of time)")
+    print("B. stare at door for eternity(even bigger waste of time)")
     answer = input("?")
 
     if answer.lower() == "b":
@@ -55,7 +55,7 @@ def room2():
         sleep(3)
         quit()
     elif answer.lower() == "a":
-        print("you could not find the key(told you it was a wast of time)")
+        print("you could not find the key(told you it was a waste of time)")
         sleep(2)
         print("Your character: i found a flash light!")
         sleep(2)
