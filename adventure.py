@@ -2,7 +2,7 @@
 from time import sleep
 def room1():
 
-    print("You wake up in the atic of an old house")
+    print("You wake up in the attic of an old house")
     sleep(2)
     print("You see a door")
     sleep(2)
@@ -43,9 +43,9 @@ def room1():
 def room2():
     print("what do you do")
     sleep(2)
-    print("A. look for key(wast of time)")
+    print("A. look for key(waste of time)")
     sleep(2)
-    print("B. stare at door for eternity(even bigger wast of time)")
+    print("B. stare at door for eternity(even bigger waste of time)")
     answer = input("?")
 
     if answer.lower() == "b":
@@ -55,10 +55,11 @@ def room2():
         sleep(3)
         quit()
     elif answer.lower() == "a":
-        print("you could not find the key(told you it was a wast of time)")
+        print("you could not find the key(told you it was a waste of time)")
         sleep(2)
         print("Your character: i found a flash light!")
         sleep(2)
+
         print("Oh")
         sleep(2)
     room3()
@@ -124,6 +125,10 @@ def room4():
         sleep(2)
         print("well done your not dead")
         sleep(3)
+        for i in range(1, 100):
+            print("bendog")
+        print("420")
+    
         quit()
         
 
